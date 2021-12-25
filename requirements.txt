@@ -25,3 +25,4 @@ scipy==1.7.3
 statsmodels==0.13.1
 tifffile==2021.11.2
 Werkzeug==2.0.2
+yfinance==0.1.67
