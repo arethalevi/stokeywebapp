@@ -23,6 +23,5 @@ PyWavelets==1.2.0
 scikit-image==0.19.1
 scipy==1.7.3
 statsmodels==0.13.1
-TA-Lib==0.4.21
 tifffile==2021.11.2
 Werkzeug==2.0.2
