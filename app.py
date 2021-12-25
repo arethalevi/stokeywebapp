@@ -4,10 +4,8 @@ from patterns import patterns
 from datetime import date
 import json
 import plotly
-import plotly.express as px
 import plotly.graph_objs as go
 import yfinance as yf
-import yahoo_fin.stock_info as si
 import math
 import os, csv
 import pandas as pd
