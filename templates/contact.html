@@ -107,7 +107,13 @@
 					</div>
 
 					<div class="col-md-7 col-md-push-1 animate-box">
-						<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf466yEMQpcsbIqWOko7Bwazwwcpo9SSrVbx2Pysmy5wU37kA/formResponse" method="post">
+						<style>
+							.hide { position:absolute; top:-1px; left:-1px; width:1px; height:1px; }
+						</style>
+						  
+						<iframe name="hiddenFrame" class="hide"></iframe>
+						  
+						<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf466yEMQpcsbIqWOko7Bwazwwcpo9SSrVbx2Pysmy5wU37kA/formResponse" method="post" target="hiddenFrame" onsubmit="setTimeout(function(){window.location.reload();},10);">
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
