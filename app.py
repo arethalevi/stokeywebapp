@@ -156,8 +156,8 @@ def screener():
 
 
 #update data screener
-@app.route('/screener/snapshot')
-def snapshot():
+@app.route('/screener/fileupdate')
+def update():
     today = date.today()
     today=today.strftime("%Y-%m-%d")
 
