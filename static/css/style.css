@@ -19,6 +19,8 @@ body {
   background: #fff;
 }
 
+
+
 td a:hover {
   color: #DD356E;
 }
@@ -27,7 +29,9 @@ td a{
   color: #000;
 }
 
-
+.fotocent {
+  text-align: center;
+}
 
 #page {
   position: relative;
