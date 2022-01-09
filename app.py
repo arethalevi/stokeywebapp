@@ -165,7 +165,7 @@ def update():
         companies = f.read().splitlines()
         for company in companies[1:]:
             symbol =company.split(',')[2]
-            df = yf.download(symbol+".JK", start="2022-01-01",end=today)
+            df = yf.download(symbol+".JK", start="2021-12-01",end=today)
             df.to_csv('dataset/daily/{}.csv'.format(symbol))
     return{
         'code':'success'
