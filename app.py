@@ -58,8 +58,8 @@ def cb(endpoint):
         stock = request.args.get('data')
         st = yf.Ticker(stock)
         st = st.info
-        if st['marketCap'] is not None:
-            st['marketCap']= millify(st['marketCap'])
+        # if st['marketCap'] is not None:
+        #     st['marketCap']= millify(st['marketCap'])
         for key in st:
             if st[key] is None:
                 st[key]="-"
